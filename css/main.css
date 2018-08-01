@@ -70,11 +70,31 @@ ol, li{
 #navbar header{
 	text-align: center;
 	padding: 2rem;
-	font-size: 2rem;
+	font-size: 2.25rem;
 	border-bottom: 2px solid black;
 	outline: 2px solid black;
 	outline-offset: 2px;
-	margin-bottom: 10px;
+	margin-bottom: 6px;
+}
+
+.scrollable-menu {
+    height: auto;
+    max-height: 146px;
+    overflow-x: hidden;
+    border-bottom: 2px solid black;
+    margin-bottom: 1.25rem;
+
+}
+
+.scrollable-menu a{
+    display: block;
+    font-size: 1.1rem;
+    padding-left: 3rem;
+    padding-top: .6rem;
+    padding-bottom: .6rem;
+    border-bottom: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
 
 .main-section{
@@ -83,7 +103,7 @@ ol, li{
 }
 
 .main-section header{
-	font-size: 1.5rem;
+	font-size: 2rem;
 	padding-bottom: 1rem;
 	margin-left: -.5rem;
 }
