@@ -35,8 +35,8 @@ footer, header, hgroup, menu, nav, section {
 body {
   line-height: 1; }
 
-ol, ul {
-  list-style: none; }
+/*ol, ul {
+  list-style: none; } */
 
 blockquote, q {
   quotes: none; }
@@ -58,11 +58,15 @@ body {
   height: 100%; /* needed for container min-height */
 }
 
-header{
-  min-height: 6rem;
-}
-
 h1, h2{
   font-family: 'Playfair Display';
 }
 
+ol, li{
+	margin-left: 3rem;
+}
+
+
+#navbar header{
+	text-align: center;
+}
